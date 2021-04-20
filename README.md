@@ -3,9 +3,9 @@
 
 
 ## swap-testnet-2003
-- [rpc.testnet1.test.gravitydex.io](https://rpc.testnet1.test.gravitydex.io)
-- [api.testnet1.test.gravitydex.io](https://api.testnet1.test.gravitydex.io)
-- grpc.testnet1.test.gravitydex.io
+- [rpc.testnet1.test.gravitydex.io](https://rpc.testnet1.test.gravitydex.io) Recovering
+- [api.testnet1.test.gravitydex.io](https://api.testnet1.test.gravitydex.io) Recovering
+- grpc.testnet1.test.gravitydex.io Recovering
 - dev(enabled-unsafe-cors = ture) : [https://api.gravity.bharvest.io](https://api.gravity.bharvest.io)
 - dev(cors_allowed_origins = ["*"]) : [https://rpc.gravity.bharvest.io](https://rpc.gravity.bharvest.io)
 
