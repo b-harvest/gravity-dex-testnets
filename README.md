@@ -10,6 +10,7 @@
 - [http://dev.bharvest.io:1317](http://dev.bharvest.io:1317)
 - [http://dev.bharvest.io:9090](http://dev.bharvest.io:9090) 
 - cosmos-sdk@v0.40.0 , liquidity/0.1.0-rc0-33-g1631ad4
+- Faucet: `dev.bharvest.io/faucet/?address=<address>`
 
 ## swap-testnet-2003 (no front)
 - [rpc.testnet1.test.gravitydex.io](https://rpc.testnet1.test.gravitydex.io) 
