@@ -8,6 +8,7 @@
 - cosmos-sdk v0.42.3 , liquidity/1.2.3
 
 ## swap-testnet-2005 (demo front)
+- Front : [https://swap.bharvest.io](https://swap.bharvest.io)
 - dev(enabled-unsafe-cors = ture) : [https://api.gravity.bharvest.io](https://api.gravity.bharvest.io)
 - dev(cors_allowed_origins = ["*"]) : [https://rpc.gravity.bharvest.io](https://rpc.gravity.bharvest.io)
 - dev(grpc): [grpc.gravity.bharvest.io:9090](grpc.gravity.bharvest.io:9090) 
