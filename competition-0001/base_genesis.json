@@ -1,0 +1,551 @@
+{
+  "genesis_time": "2021-05-03T11:03:33.420529Z",
+  "chain_id": "competition-0001",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": false
+      },
+      "balances": [],
+      "supply": [],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Cosmos Hub.",
+          "denom_units": [
+            {
+              "denom": "uatom",
+              "exponent": 0,
+              "aliases": [
+                "microatom"
+              ]
+            },
+            {
+              "denom": "matom",
+              "exponent": 3,
+              "aliases": [
+                "milliatom"
+              ]
+            },
+            {
+              "denom": "atom",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uatom",
+          "display": "atom"
+        },
+        {
+          "description": "REGEN Network",
+          "denom_units": [
+            {
+              "denom": "uregen",
+              "exponent": 0,
+              "aliases": [
+                "microregen"
+              ]
+            },
+            {
+              "denom": "mregen",
+              "exponent": 3,
+              "aliases": [
+                "milliregen"
+              ]
+            },
+            {
+              "denom": "regen",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uregen",
+          "display": "regen"
+        },
+        {
+          "description": "BITSONG",
+          "denom_units": [
+            {
+              "denom": "ubtsg",
+              "exponent": 0,
+              "aliases": [
+                "microbtsg"
+              ]
+            },
+            {
+              "denom": "mbtsg",
+              "exponent": 3,
+              "aliases": [
+                "millibtsg"
+              ]
+            },
+            {
+              "denom": "btsg",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ubtsg",
+          "display": "btsg"
+        },
+        {
+          "description": "SENTINEL",
+          "denom_units": [
+            {
+              "denom": "udvpn",
+              "exponent": 0,
+              "aliases": [
+                "microdvpn"
+              ]
+            },
+            {
+              "denom": "mdvpn",
+              "exponent": 3,
+              "aliases": [
+                "millidvpn"
+              ]
+            },
+            {
+              "denom": "dvpn",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "udvpn",
+          "display": "dvpn"
+        },
+        {
+          "description": "PERSISTENCE",
+          "denom_units": [
+            {
+              "denom": "uxprt",
+              "exponent": 0,
+              "aliases": [
+                "microxprt"
+              ]
+            },
+            {
+              "denom": "mxprt",
+              "exponent": 3,
+              "aliases": [
+                "millixprt"
+              ]
+            },
+            {
+              "denom": "xprt",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uxprt",
+          "display": "xprt"
+        },
+        {
+          "description": "AKASH",
+          "denom_units": [
+            {
+              "denom": "uakt",
+              "exponent": 0,
+              "aliases": [
+                "microakt"
+              ]
+            },
+            {
+              "denom": "makt",
+              "exponent": 3,
+              "aliases": [
+                "milliakt"
+              ]
+            },
+            {
+              "denom": "akt",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uakt",
+          "display": "akt"
+        },
+        {
+          "description": "TERRA",
+          "denom_units": [
+            {
+              "denom": "uluna",
+              "exponent": 0,
+              "aliases": [
+                "microluna"
+              ]
+            },
+            {
+              "denom": "mluna",
+              "exponent": 3,
+              "aliases": [
+                "milliluna"
+              ]
+            },
+            {
+              "denom": "luna",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uluna",
+          "display": "luna"
+        },
+        {
+          "description": "E-Money",
+          "denom_units": [
+            {
+              "denom": "ungm",
+              "exponent": 0,
+              "aliases": [
+                "microngm"
+              ]
+            },
+            {
+              "denom": "mngm",
+              "exponent": 3,
+              "aliases": [
+                "millingm"
+              ]
+            },
+            {
+              "denom": "ngm",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ungm",
+          "display": "ngm"
+        },
+        {
+          "description": "CYBER",
+          "denom_units": [
+            {
+              "denom": "ugcyb",
+              "exponent": 0,
+              "aliases": [
+                "microgcyb"
+              ]
+            },
+            {
+              "denom": "mgcyb",
+              "exponent": 3,
+              "aliases": [
+                "milligcyb"
+              ]
+            },
+            {
+              "denom": "gcyb",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ugcyb",
+          "display": "gcyb"
+        },
+        {
+          "description": "IRIS NETWORK",
+          "denom_units": [
+            {
+              "denom": "uiris",
+              "exponent": 0,
+              "aliases": [
+                "microiris"
+              ]
+            },
+            {
+              "denom": "miris",
+              "exponent": 3,
+              "aliases": [
+                "milliiris"
+              ]
+            },
+            {
+              "denom": "iris",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uiris",
+          "display": "iris"
+        },
+        {
+          "description": "AGORIC",
+          "denom_units": [
+            {
+              "denom": "xrun",
+              "exponent": 0,
+              "aliases": [
+                "microrun"
+              ]
+            },
+            {
+              "denom": "mrun",
+              "exponent": 3,
+              "aliases": [
+                "millirun"
+              ]
+            },
+            {
+              "denom": "run",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "xrun",
+          "display": "run"
+        },
+        {
+          "description": "COMMERCIO",
+          "denom_units": [
+            {
+              "denom": "ucom",
+              "exponent": 0,
+              "aliases": [
+                "microcom"
+              ]
+            },
+            {
+              "denom": "mcom",
+              "exponent": 3,
+              "aliases": [
+                "millicom"
+              ]
+            },
+            {
+              "denom": "com",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ucom",
+          "display": "com"
+        },
+        {
+          "description": "Desmos",
+          "denom_units": [
+            {
+              "denom": "udsm",
+              "exponent": 0,
+              "aliases": [
+                "microdsm"
+              ]
+            },
+            {
+              "denom": "mdsm",
+              "exponent": 3,
+              "aliases": [
+                "millidsm"
+              ]
+            },
+            {
+              "denom": "dsm",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "udsm",
+          "display": "dsm"
+        }
+      ]
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": false
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "172800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "liquidity": {
+      "params": {
+        "pool_types": [
+          {
+            "id": 1,
+            "name": "DefaultPoolType",
+            "min_reserve_coin_num": 2,
+            "max_reserve_coin_num": 2,
+            "description": ""
+          }
+        ],
+        "min_init_deposit_amount": "1000000",
+        "init_pool_coin_mint_amount": "1000000",
+        "max_reserve_coin_amount": "0",
+        "pool_creation_fee": [
+          {
+            "denom": "uatom",
+            "amount": "1000000"
+          }
+        ],
+        "swap_fee_rate": "0.003000000000000000",
+        "withdraw_fee_rate": "0.000000000000000000",
+        "max_order_amount_ratio": "0.100000000000000000",
+        "unit_batch_height": 1
+      },
+      "pool_records": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "6s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "stake"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": false,
+        "receive_enabled": false
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
